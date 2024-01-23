@@ -7,4 +7,7 @@ cache.Add(new CacheObject<int, string>(1, "one"));
 cache.Add(new CacheObject<int, string>(2, "two"));
 cache.Add(new CacheObject<int, string>(3, "three"));
 
- IQueryable<int> a = null;
+
+var list = new List<string>(){"one", "two", "three"};
+
+var item = cache.GetFromCacheOrGetFirstOrDefault(1, list, s => s == "one");
