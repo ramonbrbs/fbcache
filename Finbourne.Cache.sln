@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finbourne.Cache.MemoryCache", "Finbourne.Cache.MemoryCache\Finbourne.Cache.MemoryCache.csproj", "{12A2A3DC-D899-4705-A944-2C0FECE0CD96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FInbourne.Cache.ConsoleApp", "FInbourne.Cache.ConsoleApp\FInbourne.Cache.ConsoleApp.csproj", "{CA13F755-CEBC-4569-B524-B1164BB623FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finbourne.Cache.Memory.Tests", "Finbourne.Cache.Memory.Tests\Finbourne.Cache.Memory.Tests.csproj", "{5CB46AC2-A7B2-4E3B-84FE-11F9B6040F87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12A2A3DC-D899-4705-A944-2C0FECE0CD96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A2A3DC-D899-4705-A944-2C0FECE0CD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A2A3DC-D899-4705-A944-2C0FECE0CD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A2A3DC-D899-4705-A944-2C0FECE0CD96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA13F755-CEBC-4569-B524-B1164BB623FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA13F755-CEBC-4569-B524-B1164BB623FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA13F755-CEBC-4569-B524-B1164BB623FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA13F755-CEBC-4569-B524-B1164BB623FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB46AC2-A7B2-4E3B-84FE-11F9B6040F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB46AC2-A7B2-4E3B-84FE-11F9B6040F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB46AC2-A7B2-4E3B-84FE-11F9B6040F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB46AC2-A7B2-4E3B-84FE-11F9B6040F87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
