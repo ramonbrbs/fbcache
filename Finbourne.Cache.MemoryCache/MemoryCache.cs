@@ -74,6 +74,13 @@ public class MemoryCache<TKey,TContent>
         }
         return item;
     }
+    
+    public void Clear()
+    {
+        Items.Clear();
+        Head = null;
+        Tail = null;
+    }
 
     private void SetHead(CacheObject<TKey, TContent> item)
     {
